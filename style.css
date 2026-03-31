@@ -1,0 +1,20 @@
+body {
+    background-color: #151515;
+}
+
+header{
+    color: #f4f4f4
+}
+
+main {
+    font-family: 'Inter', sans-serif;
+    color: #f4f4f4;
+}
+
+footer{
+    color: #ffffff;
+}
+
+#introducao{
+    text-align: center
+}
