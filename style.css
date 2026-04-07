@@ -9,9 +9,8 @@ body{
 }
 
 header{
-    padding: 1px;
-    height: 6vh;
-    min-height: 60px;
+
+    min-height: 4rem;
     /*height: max(8vh, 60px); Pode ser feito assim tbm*/
     background-color: #000000;
     color: #f4f4f4
@@ -23,34 +22,19 @@ main {
 }
 
 footer{
-    padding: 1rem;
     color: #ffffff;
     background-color: #000000;
 }
 
 #introducao{
     text-align: center;
-    width: 100%;
-    height: 94vh;
+    min-height: 94vh;
     align-items: center;
     background-color: black; 
-    
-    overflow: hidden;
+
     position: relative;
     display: flex;
     justify-content: center;
-}
-
-#sobre {
-    padding: 1rem;
-}
-
-#competencia{
-    padding: 1rem;
-}
-
-#projeto{
-    padding: 1rem;
 }
 
 .espaco-extra{
@@ -86,7 +70,18 @@ footer{
     color: white;
 }
 
-.texto-grande {
+.titulo-1 {
 
-    font-size: 4.5rem;
+    font-size: 2.5rem;
 }
+@media (min-width:886px){
+    .titulo-1{
+        font-size: 4.5rem;
+    }
+}
+
+.content {
+    padding: 1rem 2rem;
+      /*sentido horario: vertical, horizontal*/
+}
+
