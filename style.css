@@ -63,11 +63,11 @@ footer{
 
 
 .container {
-    max-width: 80rem;
+    max-width: 120rem;
     margin: 0 auto;
 }
 .container--lg {
-    max-width: 100rem;
+    max-width: 140rem;
 }
 
 .animacao {
