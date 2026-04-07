@@ -1,39 +1,66 @@
-
 html {
     font-family: 'Inter', sans-serif;
+ 
 }
 
 body{
+
     background-color: #151515;
 }
 
 header{
-    height: 80px;
+    padding: 1px;
+    height: 6vh;
+    min-height: 60px;
+    /*height: max(8vh, 60px); Pode ser feito assim tbm*/
     background-color: #000000;
     color: #f4f4f4
+
 }
 
 main {
     color: #f4f4f4;
 }
 
-section{
-    margin-top: 50px;
-    padding: 0 1rem;
-}
-
 footer{
+    padding: 1rem;
     color: #ffffff;
     background-color: #000000;
 }
 
 #introducao{
-    text-align: center
+    text-align: center;
+    width: 100%;
+    height: 94vh;
+    align-items: center;
+    background-color: black; 
+    
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#sobre {
+    padding: 1rem;
+}
+
+#competencia{
+    padding: 1rem;
+}
+
+#projeto{
+    padding: 1rem;
 }
 
 .espaco-extra{
-    margin-top: 20px;
+    margin-top: 2rem;
 }
+
+.espaco-extra-lg{
+    margin-top: 4rem;
+}
+
 
 .container {
     max-width: 80rem;
@@ -41,4 +68,25 @@ footer{
 }
 .container--lg {
     max-width: 100rem;
+}
+
+.animacao {
+    width: 100%;   
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(15%);
+    position:absolute;
+    z-index: 1;
+}
+
+.texto-central {
+    position: relative; 
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
+
+.texto-grande {
+
+    font-size: 4.5rem;
 }
